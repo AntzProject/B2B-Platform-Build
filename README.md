@@ -24,4 +24,4 @@ Please read [CONTRIBUTING.md](https://github.com/AntzProject/Platform/blob/maste
 We use [SemVer](http://semver.org/) for versioning. 
 
 ## License
-This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache 2.0 License - see the [License](https://github.com/AntzProject/B2B-Platform-Build/blob/master/LICENSE) for details.
