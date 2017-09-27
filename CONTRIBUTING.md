@@ -4,7 +4,7 @@ We work on an open-consensus model where any contributor is free to propose chan
 
 ## Proposing Changes
 You can discuss a change you wish to make via an issue, email or any other method with the owners of this repository. The owners will then allow for all other contributers to vote on the proposed change(s).
-Please note that we have a code of conduct, and we encourage all contributors to follow it in all interactions with the community. 
+Please note that we have a [code of conduct](https://github.com/AntzProject/Platform/blob/master/CODE_OF_CONDUCT.md), and we encourage all contributors to follow it in all interactions with the community. 
 
 ## Pull Request Process
 
