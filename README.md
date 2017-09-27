@@ -5,8 +5,11 @@ Welcome to Antz. We are a Singapore-based project that is seeking to build an op
 
 ## What We Hope to Achieve
 (1) Provide a direct connection between buyers and sellers of businesses services without a need for intermediaries.
+
 (2) Build a robust and reliable open-source, permissions-free B2B platform for transactions.
+
 (3) Leverage on blockchain technology for data exchange and creation/validation of smart contracts in transactions.
+
 (4) Encourage innovation and collaboration where all participants are engaged in the development of the platform.
 
 ## Contributing to the Antz Project
