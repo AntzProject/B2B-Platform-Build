@@ -19,3 +19,9 @@ Smart Contracts will be based on [Solidity](https://solidity.readthedocs.io/en/d
 
 ## Contributing to the Antz Project
 Please read [CONTRIBUTING.md](https://github.com/AntzProject/Platform/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+We use [SemVer](http://semver.org/) for versioning. 
+
+## License
+This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
