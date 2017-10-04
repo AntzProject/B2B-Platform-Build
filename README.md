@@ -27,11 +27,24 @@ We see the platform as comprising 4 main components or modules:
 
 We also plan to incorporate functionalities where buyers can submit customised requests for services not listed on the platform, and for suppliers to bid for these requests using an automated e-bidding system. This feature may be introduced in Version 1, or later on as we develop other functionalities to the platform.
 
+The DAPP will thus consist of the following layers:
+(1) Server (NodeJS / Web3) that manages communication between the client apps and the blockchain
+(2) Smart Contracts (Solidity, compiled into EVM Byte Code, as well as a corresponding Application Binary Interface (ABI) that is derived from the Solidity source code and which tells other languages how to interact with the compiled contracts)
+(3) UI (Javascript, as well as, optionally, native languages such as Swift, or Java)
+
 
 ## Built With
-Antz is built primarily on Ethereum. As such, we anticipate a lot of work to be done via the Ethereum Virtual Machine (EVM). Ethereum Virtual Machines have been implemented in C++, Go, Haskell, Java, Javascript, Python, Ruby, Rust, and WebAssembly.
+Antz is built primarily on Ethereum. As such, we plan to build smart contracts with the following:
 
-Smart Contracts will be based on [Solidity](https://solidity.readthedocs.io/en/develop/), a language library with similarities to C and JavaScript and [Serpent](https://github.com/ethereum/wiki/wiki/Serpent).
+(1) GoLang (The Go Programming language is needed to run Geth)
+(2) Geth (The Ethereum system implemented in Go)
+a local closed testnet (run by invoking Geth), and a shared testnet running on a cheap cloud server
+NodeJS, and/or
+(3) Python3 (we used both as different developers had different strenghts and Python was very good for just hacking stuff out quickly)
+Redux / React for the front end
+(4) a text editor such as Atom, Sublime, or Textmate 
+(5) custom scripts to compile Solidity, generate the Binary files and ABIs as needed, and deploy the compiled contracts to a nominated blockchain (local or shared testnets, or the public blockchain)
+
 
 ## Contributing to the Antz Project
 Please read [CONTRIBUTING.md](https://github.com/AntzProject/Platform/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
