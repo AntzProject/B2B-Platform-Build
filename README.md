@@ -12,6 +12,22 @@ Welcome to Antz. We are a Singapore-based project that is seeking to build an op
 
 (4) Encourage innovation and collaboration where all participants are engaged in the development of the platform via an open-consensus model.
 
+## Design Overview
+Note: Design and architecture of the main Antz platform may be updated in actual development. 
+
+We see the platform as comprising 4 main components or modules:
+
+(1) User Registration: Allows for Buyers and Sellers of BPS to register as users on the platform, and data is written to a backend MySQL database.
+
+(2) Search & Match: Allows for Buyers and Sellers to find each other; includes filters that include relevance, new listings, location, pricing, customer reviews etc.
+
+(3) P2P Funds Transfer: P2P funds transfers facilitated through the exchange of Nectar, our ERC-20 token; Nectar will also allow for easy conversions into fiat currencies for users who do not hold Nectar tokens.
+
+(4) Feedback Mechanism: Communications between Buyers and Sellers via direct messaging functions, chats etc for clarifications; customer ratings and feedback submissions to rate and comment on both buyers and sellers. 
+
+We also plan to incorporate functionalities where buyers can submit customised requests for services not listed on the platform, and for suppliers to bid for these requests using an automated e-bidding system. This feature may be introduced in Version 1, or later on as we develop other functionalities to the platform.
+
+
 ## Built With
 Antz is built primarily on Ethereum. As such, we anticipate a lot of work to be done via the Ethereum Virtual Machine (EVM). Ethereum Virtual Machines have been implemented in C++, Go, Haskell, Java, Javascript, Python, Ruby, Rust, and WebAssembly.
 
