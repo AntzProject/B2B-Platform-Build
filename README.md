@@ -37,13 +37,17 @@ The DAPP will thus consist of the following layers:
 Antz is built primarily on Ethereum. As such, we plan to build smart contracts with the following:
 
 (1) GoLang (The Go Programming language is needed to run Geth)
+
 (2) Geth (The Ethereum system implemented in Go)
 a local closed testnet (run by invoking Geth), and a shared testnet running on a cheap cloud server
 NodeJS, and/or
-(3) Python3 (we used both as different developers had different strenghts and Python was very good for just hacking stuff out quickly)
-Redux / React for the front end
-(4) a text editor such as Atom, Sublime, or Textmate 
-(5) custom scripts to compile Solidity, generate the Binary files and ABIs as needed, and deploy the compiled contracts to a nominated blockchain (local or shared testnets, or the public blockchain)
+
+(3) Python3
+(4) Redux / React for the front end
+
+(5) a text editor such as Atom, Sublime, or Textmate 
+
+(6) custom scripts to compile Solidity, generate the Binary files and ABIs as needed, and deploy the compiled contracts to a nominated blockchain (local or shared testnets, or the public blockchain)
 
 
 ## Contributing to the Antz Project
